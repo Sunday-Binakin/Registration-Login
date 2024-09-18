@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>login</title>
+    <script src="./scripts/login.js" defer></script>
+    <link rel="stylesheet" href="./css/register_styles.css">
 </head>
+
 <body>
-    
+    <div class="main-container">
+        <h1>login</h1>
+       <div class="registration-container">
+           
+            <div class="register-image">
+                <img src="./assets/images/img_1.jpg" alt="img">
+            </div>
+            <form id="login-form">
+                <label for="">Username</label>
+                <input type="text" placeholder="Enter Your Usename" required name="username">
+                <label for="">Password</label>
+                <input type="password" placeholder="****Enter your password****" required name="password">
+                <button type="submit">Submit</button>
+            </form> 
+            <h1 id="message"></h1>
+        </div>
+
+        
+    </div>
 </body>
+
 </html>
